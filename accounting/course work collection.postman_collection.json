@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "f0511f08-1cf6-4392-b1a6-39d69435ae4c",
+		"name": "course work collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get all business trips",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5003/api/businessTrip/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"api",
+						"businessTrip",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create new business trip",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5003/api/businessTrip/create",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"api",
+						"businessTrip",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all sick lists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5003/api/sickList/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"api",
+						"sickList",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create new sick list",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ic\": \"789654321\", \n    \"beginning\": \"2021-09-04\", \n    \"end\": \"2021-10-01\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5003/api/sickList/create",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"api",
+						"sickList",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all personal cards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5003/api/personalCard/getAll",
+					"host": [
+						"localhost"
+					],
+					"port": "5003",
+					"path": [
+						"api",
+						"personalCard",
+						"getAll"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all subdivisions",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

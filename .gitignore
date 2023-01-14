@@ -1,0 +1,5 @@
+.idea
+accounting/.idea
+accounting/.DS_Store
+accounting/backend/node_modules
+accounting/frontend/node_modules
